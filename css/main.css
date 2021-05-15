@@ -1,26 +1,183 @@
-.mt-10 {
-  margin-top: 1rem;
+.py-6 {
+  padding-top: 0.6rem !important;
+  padding-bottom: 0.6rem !important;
+}
+
+.px-6 {
+  padding-left: 0.6rem !important;
+  padding-right: 0.6rem !important;
+}
+
+.pt-6 {
+  padding-top: 0.6rem !important;
+}
+
+.pb-6 {
+  padding-bottom: 0.6rem !important;
+}
+
+.pl-6 {
+  padding-left: 0.6rem !important;
+}
+
+.pr-6 {
+  padding-right: 0.6rem !important;
+}
+
+.mx-6 {
+  margin-left: 0.6rem !important;
+  margin-right: 0.6rem !important;
+}
+
+.my-6 {
+  margin-top: 0.6rem !important;
+  margin-bottom: 0.6rem !important;
+}
+
+.mt-6 {
+  margin-top: 0.6rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 0.6rem !important;
+}
+
+.ml-6 {
+  margin-left: 0.6rem !important;
+}
+
+.mr-6 {
+  margin-right: 0.6rem !important;
+}
+
+.py-20 {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.px-20 {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.pt-20 {
+  padding-top: 2rem !important;
+}
+
+.pb-20 {
+  padding-bottom: 2rem !important;
+}
+
+.pl-20 {
+  padding-left: 2rem !important;
+}
+
+.pr-20 {
+  padding-right: 2rem !important;
+}
+
+.mx-20 {
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+
+.my-20 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .mt-20 {
-  margin-top: 2rem;
+  margin-top: 2rem !important;
 }
 
-.text-primary {
-  color: #ec5252 !important;
+.mb-20 {
+  margin-bottom: 2rem !important;
 }
 
-.text-secondary {
-  color: #686f7a !important;
+.ml-20 {
+  margin-left: 2rem !important;
 }
 
-h1 {
-  font-size: 4rem;
-  line-height: 5.3rem;
+.mr-20 {
+  margin-right: 2rem !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #686f7a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+}
+
+a:focus,
+button:focus,
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #007791;
+  display: inline-block;
+}
+
+a:hover, a:focus {
+  color: #003845;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+ul li + li {
+  padding: 0 0 0 1.2rem;
+}
+
+.text-nevada {
+  color: #686f7a;
+}
+
+.fs-13 {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+.fw-700 {
   font-weight: 700;
 }
 
-.fs-18 {
-  font-size: 1.8rem;
-  line-height: 2.8rem;
+.footer {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+.footer .logo {
+  max-width: 11rem;
+}
+
+.footer .footer-list {
+  border-top: 1px solid #e8e9eb;
+  border-bottom: 1px solid #e8e9eb;
+  padding: 4rem 0;
+}
+
+.footer .footer-copyright {
+  padding: 3.6rem 0;
+  border-bottom: 0.6rem solid #ec5252;
 }

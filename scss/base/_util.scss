@@ -1,24 +1,18 @@
-// Begin Text Color
-.text-primary {
-  color: $color-primary !important;
+// BEGIN TEXT COLOR
+.text-nevada {
+  color: $color-nevada;
 }
+// END TEXT COLOR
 
-.text-secondary {
-  color: $color-secondary !important;
+// BEGIN TEXT SIZE
+.fs-13 {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
-// End Text Color
+// END TEXT SIZE
 
-// Begin Heading
-h1 {
-  font-size: 4rem;
-  line-height: 5.3rem;
+// BEGIN TEXT WEIGHT
+.fw-700 {
   font-weight: 700;
 }
-// End Font Heading
-
-// Begin Font
-.fs-18 {
-  font-size: 1.8rem;
-  line-height: 2.8rem;
-}
-// End Font Size
+// END TEXT WEIGHT
