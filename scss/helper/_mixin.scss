@@ -1,0 +1,9 @@
+// Begin Margin & Padding
+$numberList: 10 20;
+
+@each $number in $numberList {
+  .mt-#{$number} {
+    margin-top: $number/10 + rem;
+  }
+}
+// End Margin & Padding

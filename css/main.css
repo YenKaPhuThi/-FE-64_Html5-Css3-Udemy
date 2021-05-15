@@ -1,0 +1,26 @@
+.mt-10 {
+  margin-top: 1rem;
+}
+
+.mt-20 {
+  margin-top: 2rem;
+}
+
+.text-primary {
+  color: #ec5252 !important;
+}
+
+.text-secondary {
+  color: #686f7a !important;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 5.3rem;
+  font-weight: 700;
+}
+
+.fs-18 {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}

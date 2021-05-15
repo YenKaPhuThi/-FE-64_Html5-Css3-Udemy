@@ -1,0 +1,24 @@
+// Begin Text Color
+.text-primary {
+  color: $color-primary !important;
+}
+
+.text-secondary {
+  color: $color-secondary !important;
+}
+// End Text Color
+
+// Begin Heading
+h1 {
+  font-size: 4rem;
+  line-height: 5.3rem;
+  font-weight: 700;
+}
+// End Font Heading
+
+// Begin Font
+.fs-18 {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+// End Font Size
